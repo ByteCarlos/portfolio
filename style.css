@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    font-family: 'Akwe Pro', sans-serif;
+    font-style: normal;
+}
+ 
+header {
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Akwe Pro', sans-serif;
+    font-weight: 500;
+}
+
+header .logo-container {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    width: 40%;
+}
+
+header .logo-container img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+header .logo-container h4 {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+header .links-container {
+    height: 100%;
+    width: 40%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .links-container a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    min-height: 1000px;
+    background-color: #fafafa;
+}
+
+main .presentation-container {
+    background: linear-gradient(to right, rgba(245,245,245,0.8), rgba(245,245,245,0.8)),url('./common-bg.svg');
+    background-position: center;
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 50rem;
+    max-height: 120rem;
+    position: relative;
+    width: 100%;
+}
+
+main .presentation-container .profissional-links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    height: 180px;
+    width: 40px;
+    padding: 10px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
+main .presentation-container .profissional-links-container a {
+    color: black;
+    font-size: 30px;
+}
+
+main .presentation-container .presentation-text {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 92%; 
+}
+main .presentation-container .presentation-text h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+main .presentation-container .presentation-text h4 {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+main .presentation-container .presentation-text button {
+    background-color: #54b2ff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: none;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+main .about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+main .about-me-container h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+main .about-me-container .line {
+    height: 5px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #54b2ff;
+    margin-top: 20px;
+}
+
+main .about-me-container h4 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .about-me-container .two-containers {
+    margin-top: 5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .about-me-container .two-containers .text-container {
+    padding: 20px 40px;
+    width: 50%;
+}
+
+main .about-me-container .two-containers .text-container h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+main .about-me-container .two-containers .text-container p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+main .about-me-container .two-containers .text-container p a {
+    color: #54b2ff;
+}
+
+main .about-me-container .two-containers .text-container button {
+    background-color: #54b2ff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+    width: 150px;
+    border: none;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+main .about-me-container .two-containers .skills-container {
+    padding: 20px 40px;
+    width: 50%;
+}
+
+main .about-me-container .two-containers .skills-container h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+main .about-me-container .two-containers .skills-container .skills-line {
+    height: 50px;
+}
+
+main .about-me-container .two-containers .skills-container .skills-line span {
+    color: #666;
+    background-color: rgba(153,153,153,0.2);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
