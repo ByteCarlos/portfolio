@@ -200,3 +200,134 @@ main .about-me-container .two-containers .skills-container .skills-line span {
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+main .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+main .projects-container h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+main .projects-container .line {
+    height: 5px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #54b2ff;
+    margin-top: 20px;
+}
+
+main .projects-container h4 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .projects-container .project-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .projects-container .project-container .image-container {
+    margin-right: 30px;
+}
+
+main .projects-container .project-container .image-container img {
+    height: 500px;
+}
+
+main .projects-container .project-container .text-container p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+main .projects-container .project-container .text-container a {
+    color: black;
+    text-decoration: none;
+}
+
+main .projects-container .project-container .text-container a i {
+    margin-left: 5px;
+}
+
+main .projects-container .project-container .text-container a button {
+    background-color: #54b2ff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+    width: 150px;
+    border: none;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+footer {
+    background: black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+footer .two-containers {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+footer .two-containers .resume {
+    height: 100px;
+    width: 30%;
+    padding: 50px 0px;
+}
+
+footer .two-containers h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+footer .two-containers h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .two-containers .social-container {
+    height: 100px;
+    width: 10%;
+    padding: 50px 0px;
+}
+
+footer .two-containers .social-container a {
+    color: white;
+    margin-right: 10px;
+}
+
+footer .two-containers .social-container a i {
+    font-size: 25px;
+}
+
+footer .line {
+    height: 0.5px;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+footer h5 {
+    font-weight: 400;
+}
