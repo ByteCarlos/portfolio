@@ -207,6 +207,7 @@ main .projects-container {
     justify-content: center;
     align-items: center;
     padding: 10rem;
+    background-color: white;
 }
 
 main .projects-container h1 {
@@ -268,7 +269,7 @@ main .projects-container .project-container .text-container a button {
     margin-top: 20px;
     width: 150px;
     border: none;
-    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100,100,111,0.2) 0px 5px 5px 0px;
     border-radius: 5px;
 }
 
