@@ -112,6 +112,19 @@ main .presentation-container .presentation-text button {
     border-radius: 5px;
 }
 
+main .about-me-container .curriculum-download {
+    background-color: #54b2ff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: none;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
 main .about-me-container {
     display: flex;
     flex-direction: column;
